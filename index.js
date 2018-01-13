@@ -19,3 +19,7 @@ function prependKitten(name) {
   var anotherkitten = [name,...kittens]
   return anotherkitten
 }
+function removeFirstKitten() {
+  return kittens.slice()
+}
+
